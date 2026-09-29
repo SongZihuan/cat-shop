@@ -1,0 +1,29 @@
+# 仓根公共规则。shop-backend/ 和 shop-frontend/ 各自的 .gitignore 仍然生效，
+# 依赖目录、构建产物等具体规则写在那两个文件里，这里只放跨项目的公共项。
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 本地覆盖配置
+*.local
+
+# 依赖与构建产物（装在仓根时）
+node_modules/
+dist/
+bin/
+out/
+
+# 可执行文件
+*.exe

@@ -1,0 +1,40 @@
+# 与两个子项目保持一致：文本文件统一 LF，二进制资源不做行尾转换
+* text=auto eol=lf
+
+# 图片
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
+# 文档
+*.pdf binary
+
+# 视频
+*.mp4 binary
+*.avi binary
+*.mkv binary
+*.mov binary
+*.wmv binary
+
+# 字体
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+# 音频
+*.mp3 binary
+*.wav binary
+*.aac binary
+*.flac binary
+
+# 压缩包
+*.zip binary
+*.tar.gz binary
+*.rar binary
+
+# 数据库文件
+*.db binary
